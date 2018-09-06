@@ -3,6 +3,7 @@ MAINTAINER ductricse@gmail.com
 ENV REFRESHED_AT 2018-07-28
 
 RUN pip install nltk
+RUN pip install joblib==0.12.4
 
 VOLUME /source
 VOLUME /dataset
