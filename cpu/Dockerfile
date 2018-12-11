@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:latest-py3
+FROM tensorflow/tensorflow:1.12.0-gpu-py3
 MAINTAINER ductricse@gmail.com
 RUN apt-get update
 

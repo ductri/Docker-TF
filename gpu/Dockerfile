@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:nightly-gpu-py3
+FROM tensorflow/tensorflow:1.12.0-gpu-py3
 MAINTAINER ductricse@gmail.com
 ENV REFRESHED_AT 2018-07-28
 
